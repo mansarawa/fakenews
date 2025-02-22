@@ -16,7 +16,7 @@ console.log(selectedCategory)
     }
     const handleEmail=async(e:any)=>{
       e.preventDefault()
-      const res=await fetch('http://localhost:9000/addCategory',{
+      const res=await fetch('https://fakenews-y6a6.onrender.com/addCategory',{
         method:'post',
         headers:{
           'Content-Type':'applicaiton/json'
